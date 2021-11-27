@@ -38,7 +38,7 @@
 // module.exports = Booking;
 
 const mongoose = require('mongoose');
-//Hello
+
 const bookingSchema = new mongoose.Schema({
   tour: {
     type: mongoose.Schema.ObjectId,
